@@ -106,6 +106,7 @@ log_lock = Lock()
 stats_lock = asyncio.Lock()  # 改为异步锁
 
 
+
 async def load_stats():
     """加载统计数据（异步）。数据库不可用时使用内存默认值。"""
     data = None
