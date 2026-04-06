@@ -43,6 +43,9 @@ ENV/
 data/
 logs/
 static/
+resin/
+business2api-master/
+@business2api-master/
 
 # OS
 .DS_Store

@@ -326,7 +326,7 @@ curl http://localhost:7860/v1/chat/completions \
 | [Claw Cloud](https://claw.cloud) | ✅ 有      | 容器云平台，简单易用                   |
 | 自建 VPS（推荐）                 | —         | 完全可控，配合 Docker Compose          |
 
-> Docker 镜像：`cooooookk/gemini-business2api:latest`
+> Docker 镜像：`ghcr.io/0xheliuni/gemini-business2api:latest`
 >
 > 部署时先设置 `ADMIN_KEY`；`DATABASE_URL` 仅在必要时再配置（默认本地 `data.db` 更推荐）。
 
