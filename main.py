@@ -76,6 +76,7 @@ from core.account import (
     load_accounts_from_source,
     reload_accounts as _reload_accounts,
     update_accounts_config as _update_accounts_config,
+    patch_accounts_config as _patch_accounts_config,
     delete_account as _delete_account,
     update_account_disabled_status as _update_account_disabled_status,
     bulk_update_account_disabled_status as _bulk_update_account_disabled_status,
@@ -1898,6 +1899,35 @@ async def admin_update_config(request: Request, accounts_data: list = Body(...))
     except Exception as e:
         logger.error(f"[CONFIG] 更新配置失败: {str(e)}")
         raise HTTPException(500, f"更新失败: {str(e)}")
+
+
+@app.patch("/admin/accounts-config")
+@require_login()
+async def admin_patch_config(request: Request, accounts_data: list = Body(...)):
+    """增量更新账户配置：按 id 匹配更新已有账号，不存在则追加"""
+    global multi_account_mgr
+    if not accounts_data:
+        raise HTTPException(400, "请提供至少一个账号数据")
+    try:
+        multi_account_mgr, updated, added = _patch_accounts_config(
+            accounts_data,
+            multi_account_mgr,
+            http_client,
+            USER_AGENT,
+            RETRY_POLICY,
+            SESSION_CACHE_TTL_SECONDS,
+            global_stats,
+        )
+        return {
+            "status": "success",
+            "message": "增量更新完成",
+            "account_count": len(multi_account_mgr.accounts),
+            "updated": updated,
+            "added": added,
+        }
+    except Exception as e:
+        logger.error(f"[CONFIG] 增量更新失败: {str(e)}")
+        raise HTTPException(500, f"增量更新失败: {str(e)}")
 
 
 @app.post("/admin/register/start")

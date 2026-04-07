@@ -933,6 +933,50 @@ def update_accounts_config(
     )
 
 
+def patch_accounts_config(
+    partial_accounts: list,
+    multi_account_mgr: MultiAccountManager,
+    http_client,
+    user_agent: str,
+    retry_policy: RetryPolicy,
+    session_cache_ttl_seconds: int,
+    global_stats: dict
+) -> tuple:
+    """增量更新账户配置：按 id 匹配更新或追加新账号。
+
+    Returns:
+        (new_mgr, updated_count, added_count)
+    """
+    current_accounts = load_accounts_from_source()
+    accounts_map = {acc.get("id"): acc for acc in current_accounts if acc.get("id")}
+
+    updated_count = 0
+    added_count = 0
+
+    for incoming in partial_accounts:
+        if not isinstance(incoming, dict):
+            continue
+        acc_id = incoming.get("id")
+        if not acc_id:
+            logger.warning("[CONFIG] 增量更新: 跳过无 id 的账号数据")
+            continue
+
+        if acc_id in accounts_map:
+            accounts_map[acc_id].update(incoming)
+            updated_count += 1
+        else:
+            accounts_map[acc_id] = incoming
+            added_count += 1
+
+    merged = list(accounts_map.values())
+    save_accounts_to_file(merged)
+    new_mgr = reload_accounts(
+        multi_account_mgr, http_client, user_agent,
+        retry_policy, session_cache_ttl_seconds, global_stats
+    )
+    return new_mgr, updated_count, added_count
+
+
 def delete_account(
     account_id: str,
     multi_account_mgr: MultiAccountManager,
