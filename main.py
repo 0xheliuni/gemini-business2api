@@ -2976,7 +2976,8 @@ async def chat_impl(req: ChatRequest, request: Request, authorization: Optional[
             for retry_idx in range(max_retries):
                 try:
                     account_manager = await multi_account_mgr.get_account(
-                        None, request_id, required_quota_types
+                        None, request_id, required_quota_types,
+                        is_failover=(retry_idx > 0),
                     )
                     google_session = await create_google_session(
                         account_manager, http_client, USER_AGENT, request_id
@@ -3219,7 +3220,8 @@ async def chat_impl(req: ChatRequest, request: Request, authorization: Optional[
                     # 尝试切换到其他账户
                     try:
                         new_account = await multi_account_mgr.get_account(
-                            None, request_id, required_quota_types
+                            None, request_id, required_quota_types,
+                            is_failover=True,
                         )
                         logger.info(
                             f"[CHAT] [req_{request_id}] 切换账户: {account_manager.config.account_id} -> {new_account.config.account_id}"

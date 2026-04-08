@@ -7,7 +7,6 @@ import json
 import logging
 import os
 import random
-import threading
 import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -516,12 +515,7 @@ class MultiAccountManager:
     """多账户协调器"""
     def __init__(self, session_cache_ttl_seconds: int):
         self.accounts: Dict[str, AccountManager] = {}
-        self.account_list: List[str] = []  # 账户ID列表 (用于轮询)
-        self.current_index = 0
         self._cache_lock = asyncio.Lock()  # 缓存操作专用锁
-        self._counter_lock = threading.Lock()  # 轮询计数器锁
-        self._request_counter = 0  # 请求计数器
-        self._last_account_count = 0  # 可用账户数量
         # 全局会话缓存：{conv_key: {"account_id": str, "session_id": str, "updated_at": float}}
         self.global_session_cache: Dict[str, dict] = {}
         self.cache_max_size = 1000  # 最大缓存条目数
@@ -624,7 +618,6 @@ class MultiAccountManager:
         if "account_failures" in global_stats:
             manager.failure_count = global_stats["account_failures"].get(config.account_id, 0)
         self.accounts[config.account_id] = manager
-        self.account_list.append(config.account_id)
         logger.debug(f"[MULTI] [ACCOUNT] 添加账户: {config.account_id}")
 
     def get_available_accounts(
@@ -663,18 +656,60 @@ class MultiAccountManager:
 
         return available
 
+    def _score_account(
+        self,
+        acc: AccountManager,
+        is_failover: bool = False,
+        required_quota_types: Optional[Iterable[str]] = None,
+    ) -> float:
+        """为账号计算调度优先级分数，越低越优先。
+
+        评分维度（V1 使用已有字段）：
+          1. 当前压力: session_usage_count
+          2. 配额压力: daily_usage / daily_limit 比率
+          3. 长期均衡: conversation_count（弱信号）
+          4. failover 场景额外考虑 failure_count
+        """
+        from core.config import config as app_config
+
+        score = 0.0
+
+        # --- 主信号：当前压力 (权重最高) ---
+        score += acc.session_usage_count * 10.0
+
+        # --- 强风险项：配额压力 ---
+        quota_limits = app_config.quota_limits
+        if quota_limits.enabled:
+            types_to_check = list(required_quota_types or ["text"])
+            for qt in types_to_check:
+                limit = getattr(quota_limits, f"{qt}_daily_limit", 0)
+                if limit > 0:
+                    usage_ratio = acc.daily_usage.get(qt, 0) / limit
+                    score += usage_ratio * 50.0
+
+        # --- 弱平衡项：长期均衡 ---
+        score += acc.conversation_count * 0.1
+
+        # --- failover 场景：更偏向"最近没出过错"的账号 ---
+        if is_failover:
+            score += acc.failure_count * 5.0
+
+        return score
+
     async def get_account(
         self,
         account_id: Optional[str] = None,
         request_id: str = "",
-        required_quota_types: Optional[Iterable[str]] = None
+        required_quota_types: Optional[Iterable[str]] = None,
+        is_failover: bool = False,
     ) -> AccountManager:
-        """获取账户 - Round-Robin轮询
+        """获取账户 - 复合评分选号
 
         Args:
             account_id: 指定账户ID（可选，如果指定则直接返回该账户）
             request_id: 请求ID（用于日志）
             required_quota_types: 需要的配额类型列表
+            is_failover: 是否为 failover 场景（影响评分权重）
 
         Returns:
             可用的账户管理器
@@ -702,19 +737,23 @@ class MultiAccountManager:
         if not available_accounts:
             raise HTTPException(503, "No available accounts")
 
-        # 轮询选择
-        with self._counter_lock:
-            if len(available_accounts) != self._last_account_count:
-                self._request_counter = random.randint(0, 999999)
-                self._last_account_count = len(available_accounts)
-            index = self._request_counter % len(available_accounts)
-            self._request_counter += 1
+        # 复合评分选号（替代纯轮询）
+        scored = sorted(
+            available_accounts,
+            key=lambda acc: self._score_account(acc, is_failover, required_quota_types)
+        )
 
-        selected = available_accounts[index]
+        # 在得分最低的前 N 个中随机选一个，避免完全确定性导致的惊群效应
+        top_n = max(1, len(scored) // 3) if len(scored) > 2 else 1
+        selected = random.choice(scored[:top_n])
+
         selected.session_usage_count += 1
 
-        logger.info(f"[MULTI] [ACCOUNT] {req_tag}选择账户: {selected.config.account_id} "
-                    f"(索引: {index}/{len(available_accounts)}, 使用: {selected.session_usage_count})")
+        logger.info(
+            f"[MULTI] [ACCOUNT] {req_tag}选择账户: {selected.config.account_id} "
+            f"(评分: {self._score_account(selected, is_failover, required_quota_types):.1f}, "
+            f"可用: {len(available_accounts)}, failover: {is_failover})"
+        )
         return selected
 
 
