@@ -642,6 +642,9 @@ def _apply_cooldown_data(data: dict, cooldown_data: dict) -> None:
     data["failure_count"] = cooldown_data.get("failure_count", 0)
     data["daily_usage"] = cooldown_data.get("daily_usage", {"text": 0, "images": 0, "videos": 0})
     data["daily_usage_date"] = cooldown_data.get("daily_usage_date", "")
+    # 同步 expires_at（配额冷却可能延长了过期时间）
+    if "expires_at" in cooldown_data:
+        data["expires_at"] = cooldown_data["expires_at"]
 
 async def update_account_cooldown(account_id: str, cooldown_data: dict) -> bool:
     """更新单个账户的冷却状态和统计数据"""

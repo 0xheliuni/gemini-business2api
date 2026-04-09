@@ -341,11 +341,11 @@ class LoginService(BaseTaskService[LoginTask]):
 
         self._apply_accounts_update(accounts)
 
-        # 清除该账户的所有冷却状态（重新登录后恢复可用）
+        # 清除该账户的所有冷却状态（Cookie刷新意味着冷却已结束，因为 expires_at 已被延长到冷却结束）
         if account_id in self.multi_account_mgr.accounts:
             account_mgr = self.multi_account_mgr.accounts[account_id]
-            account_mgr.quota_cooldowns.clear()  # 清除配额冷却
-            account_mgr.is_available = True  # 恢复可用状态
+            account_mgr.quota_cooldowns.clear()
+            account_mgr.is_available = True
             log_cb("info", "✅ 已清除账户冷却状态")
 
         log_cb("info", "✅ 配置已保存到数据库")

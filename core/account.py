@@ -192,6 +192,31 @@ class AccountManager:
             return self.videos_rate_limit_cooldown_seconds
         return self.text_rate_limit_cooldown_seconds
 
+    def _extend_expires_at_to_cooldown_end(self, cooldown_seconds: int) -> None:
+        """将 expires_at 延长到冷却结束时间，确保冷却期间不会被外部程序检测为过期并刷新。
+        冷却结束后 expires_at 到期 → 外部程序检测到过期 → 刷新Cookie → 账号恢复。"""
+        beijing_tz = timezone(timedelta(hours=8))
+        cooldown_end = datetime.now(beijing_tz) + timedelta(seconds=cooldown_seconds)
+        new_expires_at = cooldown_end.strftime("%Y-%m-%d %H:%M:%S")
+
+        # 只延长，不缩短
+        current = self.config.expires_at
+        if current:
+            try:
+                current_time = datetime.strptime(current, "%Y-%m-%d %H:%M:%S")
+                current_time = current_time.replace(tzinfo=beijing_tz)
+                if current_time >= cooldown_end:
+                    return  # 当前过期时间已经晚于冷却结束，无需调整
+            except Exception:
+                pass
+
+        old_expires = self.config.expires_at or "未设置"
+        self.config.expires_at = new_expires_at
+        logger.info(
+            f"[ACCOUNT] [{self.config.account_id}] "
+            f"expires_at 延长至冷却结束: {old_expires} → {new_expires_at}"
+        )
+
     def apply_retry_policy(self, retry_policy: RetryPolicy) -> None:
         """Apply updated retry policy to this account manager."""
         self.rate_limit_cooldown_seconds = retry_policy.cooldowns.text  # 向后兼容
@@ -266,6 +291,7 @@ class AccountManager:
         if status_code == 401:
             self.quota_cooldowns["text"] = time.time()
             cooldown_seconds = self.text_rate_limit_cooldown_seconds
+            self._extend_expires_at_to_cooldown_end(cooldown_seconds)
             logger.warning(
                 f"[ACCOUNT] [{self.config.account_id}] {req_tag}"
                 f"遇到认证错误，账户将休息{cooldown_seconds}秒后自动恢复"
@@ -280,6 +306,7 @@ class AccountManager:
 
             self.quota_cooldowns[quota_type] = time.time()
             cooldown_seconds = self._get_quota_cooldown_seconds(quota_type)
+            self._extend_expires_at_to_cooldown_end(cooldown_seconds)
             logger.warning(
                 f"[ACCOUNT] [{self.config.account_id}] {req_tag}"
                 f"遇到429配额错误，{QUOTA_TYPES[quota_type]}配额将休息{cooldown_seconds}秒后自动恢复"
@@ -1210,6 +1237,7 @@ async def save_account_cooldown_state(account_id: str, account_mgr: AccountManag
                 "failure_count": account_mgr.failure_count,
                 "daily_usage": dict(account_mgr.daily_usage),
                 "daily_usage_date": account_mgr.daily_usage_date,
+                "expires_at": account_mgr.config.expires_at,
             },
         )
         if success:
@@ -1236,6 +1264,7 @@ def save_account_cooldown_state_sync(account_id: str, account_mgr: AccountManage
                 "failure_count": account_mgr.failure_count,
                 "daily_usage": dict(account_mgr.daily_usage),
                 "daily_usage_date": account_mgr.daily_usage_date,
+                "expires_at": account_mgr.config.expires_at,
             },
         )
         if success:
@@ -1270,6 +1299,7 @@ async def save_all_cooldown_states(multi_account_mgr: MultiAccountManager) -> in
                 "failure_count": account_mgr.failure_count,
                 "daily_usage": dict(account_mgr.daily_usage),
                 "daily_usage_date": account_mgr.daily_usage_date,
+                "expires_at": account_mgr.config.expires_at,
             }
             updates.append((account_id, cooldown_data))
 
