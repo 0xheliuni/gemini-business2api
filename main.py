@@ -398,7 +398,6 @@ logger.addHandler(memory_handler)
 # ---------- 配置管理（使用统一配置系统）----------
 # 所有配置通过 config_manager 访问，优先级：环境变量 > YAML > 默认值
 TIMEOUT_SECONDS = 300
-FIRST_CHUNK_TIMEOUT_SECONDS = 10  # 首个有效内容超时（秒），超时后提前放弃触发 failover
 API_KEY = config.basic.api_key
 ADMIN_KEY = config.security.admin_key
 _proxy_auth, _no_proxy_auth = parse_proxy_setting(config.basic.proxy_for_auth)
@@ -3715,12 +3714,6 @@ async def stream_chat_generator(
         try:
             response_count = 0
             async for json_obj in parse_json_array_stream_async(r.aiter_lines()):
-                if first_response_time is None and (time.time() - start_time) > FIRST_CHUNK_TIMEOUT_SECONDS:
-                    logger.warning(
-                        f"[API] [{account_manager.config.account_id}] [req_{request_id}] "
-                        f"首内容超时({FIRST_CHUNK_TIMEOUT_SECONDS}s)，提前终止"
-                    )
-                    break
 
                 response_count += 1
                 json_objects.append(json_obj)  # 收集响应

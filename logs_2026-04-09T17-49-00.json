@@ -1,0 +1,1270 @@
+{
+  "exported_at": "2026-04-09T17:49:00.253Z",
+  "logs": [
+    {
+      "time": "2026-04-10 01:33:25",
+      "level": "INFO",
+      "message": "[PROXY] Account operations (register/login/refresh): disabled"
+    },
+    {
+      "time": "2026-04-10 01:33:25",
+      "level": "INFO",
+      "message": "[PROXY] Chat operations (JWT/session/messages): http://gemini_business.gemini_chat:maisi_ai@resin:2260"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] API端点: /v1/chat/completions"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] Admin API endpoints: /admin/*"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] Public endpoints: /public/log, /public/stats, /public/uptime"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] Session过期时间: 24小时"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 系统初始化完成"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 图片静态服务已启用: /images/ -> ./data/images"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 视频静态服务已启用: /videos/ -> ./data/videos"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 已恢复账户成功/失败统计"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 统计数据已加载: 1211 次请求, 0 位访客"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 后台缓存清理任务已启动（间隔: 5分钟）"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 数据库清理任务已启动（每天清理一次，保留30天数据）"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 自动刷新账号任务已启动（间隔: 60秒）"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 账户刷新轮询服务已启动（默认禁用，可在设置中启用）"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 冷却状态定期保存任务已启动（间隔: 5分钟）"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[SYSTEM] 媒体文件过期清理任务已启动（过期时间: 12小时，检查间隔: 30分钟）"
+    },
+    {
+      "time": "2026-04-10 01:33:26",
+      "level": "INFO",
+      "message": "[LOGIN] 智能刷新调度器已启动"
+    },
+    {
+      "time": "2026-04-10 01:33:49",
+      "level": "INFO",
+      "message": "[AUTH] Admin login success"
+    },
+    {
+      "time": "2026-04-10 01:35:49",
+      "level": "INFO",
+      "message": "[AUTH] Admin login success"
+    },
+    {
+      "time": "2026-04-10 01:37:16",
+      "level": "INFO",
+      "message": "[CONFIG] 账户 t8402nyvce8p0nr@maisi-ai.buzz 冷却状态已重置"
+    },
+    {
+      "time": "2026-04-10 01:37:16",
+      "level": "INFO",
+      "message": "[CONFIG] 账户 t0744hkc6hi4qc7@maisi-ai.buzz 冷却状态已重置"
+    },
+    {
+      "time": "2026-04-10 01:37:26",
+      "level": "INFO",
+      "message": "[AUTO-REFRESH] 检测到账号变化，正在自动刷新..."
+    },
+    {
+      "time": "2026-04-10 01:37:26",
+      "level": "INFO",
+      "message": "[AUTO-REFRESH] 账号刷新完成，当前账号数: 212"
+    },
+    {
+      "time": "2026-04-10 01:39:26",
+      "level": "INFO",
+      "message": "[AUTO-REFRESH] 检测到账号变化，正在自动刷新..."
+    },
+    {
+      "time": "2026-04-10 01:39:26",
+      "level": "INFO",
+      "message": "[AUTO-REFRESH] 账号刷新完成，当前账号数: 212"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 用户消息: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_dd8771] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_dd8771] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_dd8771] 用户消息: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_dd8771] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 用户消息: 请全面介绍宇宙学的基本理论，包括大爆炸理论、宇宙微波背景辐射、暗物质与暗能量、黑洞物理、引力波探测以及多元宇宙假说等前沿话题。"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请全面介绍宇宙学的基本理论，包括大爆炸理论、宇宙微波背景辐射、暗物质与暗能量、黑洞物理、引力波探测以及多元宇宙假说等前沿话题。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 用户消息: 请详细描述太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑事件和未来的探索计划。"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细描述太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑事件和未来的探索计划。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 用户消息: 请深入介绍微服务架构的设计原则、与单体架构的对比、服务拆分策略、API网关、服务网格、容器化部署、可观测性（日志、监控、链路追踪）等核心话题。"
+    },
+    {
+      "time": "2026-04-10 01:42:06",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请深入介绍微服务架构的设计原则、与单体架构的对比、服务拆分策略、API网关、服务网格、容器化部署、可观测性（日志、监控、链路追踪）等核心话题。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:42:46",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:42:46",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:42:46",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:42:46",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 响应完成: 39.54秒"
+    },
+    {
+      "time": "2026-04-10 01:42:46",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:42:47",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 切换账户重试 (1/2)，退避1.3s"
+    },
+    {
+      "time": "2026-04-10 01:42:47",
+      "level": "INFO",
+      "message": "[CHAT] [req_847ed6] 切换账户: t8402nyvce8p0nr@maisi-ai.buzz -> t8402nyvce8p0nr@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:42:48",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细描述太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑事件和未来的探索计划。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:43:15",
+      "level": "WARNING",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:43:15",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:43:15",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:43:15",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 响应完成: 69.46秒"
+    },
+    {
+      "time": "2026-04-10 01:43:15",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:43:16",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 切换账户重试 (1/2)，退避1.2s"
+    },
+    {
+      "time": "2026-04-10 01:43:16",
+      "level": "INFO",
+      "message": "[CHAT] [req_31c106] 切换账户: t0744hkc6hi4qc7@maisi-ai.buzz -> t0744hkc6hi4qc7@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:43:17",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请全面介绍宇宙学的基本理论，包括大爆炸理论、宇宙微波背景辐射、暗物质与暗能量、黑洞物理、引力波探测以及多元宇宙假说等前沿话题。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:07",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 流处理完成: 收到88个响应对象, 累计内容长度7118字符"
+    },
+    {
+      "time": "2026-04-10 01:44:07",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] AI响应: 你好！我是 Gemini Enterprise，非常高兴能为你提供关于太阳系的深度解析。太阳系是我们人类在浩瀚宇宙中的家园，它的诞生、演化以及其中各个天体的独特性，构成了一部波澜壮阔的宇宙史诗。为了全面满足你对细节的渴求，我将从太阳系的起源讲起，逐一剖析八大行星的深层特征，并回顾人类探索宇宙的辉煌历程与未来蓝图。\n\n---\n\n# 🌌 太阳系的起源与形成过程\n\n太阳系的形成并非一蹴而就，而是一个跨越了数千万年的剧烈物理与化学演化过程。目前科学界最广泛接受的理论是“星云假说”（Nebular Hypothesis）。\n\n大约在46亿年前，在银河系的一个宁静角落，一团巨大的由气体（主要是氢和氦）和尘埃组成的星际分子云由于某种外部扰动（例如附近超新星爆发产生的冲击波）开始发生引力坍缩。随着坍缩的进行，这团星云的核心温度和压力急剧升高，旋转速度也随之加快。由于角动量守恒，这团原本球形的云团逐渐变得扁平，形成了一个旋转的“原行星盘”（Protoplanetary Disk）。\n\n在这个原行星盘的中心，物质不断聚集，核心温度最终达到了引发氢核聚变的临界点，我们的母星——太阳，由此诞生。太阳占据了整个...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:44:07",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 响应完成: 79.43秒"
+    },
+    {
+      "time": "2026-04-10 01:44:07",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:44:07",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_847ed6] AI响应: 你好！我是 Gemini Enterprise，非常高兴能为你提供关于太阳系的深度解析。太阳系是我们人类在浩瀚宇宙中的家园，它的诞生、演化以及其中各个天体的独特性，构成了一部波澜壮阔的宇宙史诗。为了全面满足你对细节的渴求，我将从太阳系的起源讲起，逐一剖析八大行星的深层特征，并回顾人类探索宇宙的辉煌历程与未来蓝图。\n\n---\n\n# 🌌 太阳系的起源与形成过程\n\n太阳系的形成并非一蹴而就，而是一个跨越了数千万年的剧烈物理与化学演化过程。目前科学界最广泛接受的理论是“星云假说”（Nebular Hypothesis）。\n\n大约在46亿年前，在银河系的一个宁静角落，一团巨大的由气体（主要是氢和氦）和尘埃组成的星际分子云由于某种外部扰动（例如附近超新星爆发产生的冲击波）开始发生引力坍缩。随着坍缩的进行，这团星云的核心温度和压力急剧升高，旋转速度也随之加快。由于角动量守恒，这团原本球形的云团逐渐变得扁平，形成了一个旋转的“原行星盘”（Protoplanetary Disk）。\n\n在这个原行星盘的中心，物质不断聚集，核心温度最终达到了引发氢核聚变的临界点，我们的母星——太阳，由此诞生。太阳占据了整个...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:44:07",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 切换账户重试 (1/2)，退避0.6s"
+    },
+    {
+      "time": "2026-04-10 01:44:07",
+      "level": "INFO",
+      "message": "[CHAT] [req_547077] 切换账户: t8402nyvce8p0nr@maisi-ai.buzz -> t8402nyvce8p0nr@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:44:08",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请深入介绍微服务架构的设计原则、与单体架构的对比、服务拆分策略、API网关、服务网格、容器化部署、可观测性（日志、监控、链路追踪）等核心话题。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:08",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 切换账户重试 (1/2)，退避1.7s"
+    },
+    {
+      "time": "2026-04-10 01:44:08",
+      "level": "INFO",
+      "message": "[CHAT] [req_134fca] 切换账户: t0744hkc6hi4qc7@maisi-ai.buzz -> t0744hkc6hi4qc7@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:44:08",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:08",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_dd8771] 切换账户重试 (1/2)，退避2.0s"
+    },
+    {
+      "time": "2026-04-10 01:44:08",
+      "level": "INFO",
+      "message": "[CHAT] [req_dd8771] 切换账户: t0744hkc6hi4qc7@maisi-ai.buzz -> t8402nyvce8p0nr@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:44:08",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_dd8771] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:09",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-10 01:44:09",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:44:09",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 用户消息: 请深入分析全球气候变化的原因、科学证据、对生态系统和人类社会的影响、各国应对措施（碳交易、可再生能源、碳捕获技术等）以及未来展望。"
+    },
+    {
+      "time": "2026-04-10 01:44:09",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请深入分析全球气候变化的原因、科学证据、对生态系统和人类社会的影响、各国应对措施（碳交易、可再生能源、碳捕获技术等）以及未来展望。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 继续会话: 270711857530"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 用户消息: 请深入介绍微服务架构的设计原则、与单体架构的对比、服务拆分策略、API网关、服务网格、容器化部署、可观测性（日志、监控、链路追踪）等核心话题。"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 发送内容: 请深入介绍微服务架构的设计原则、与单体架构的对比、服务拆分策略、API网关、服务网格、容器化部署、可观测性（日志、监控、链路追踪）等核心话题。"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 继续会话: 048910600299"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 用户消息: 请全面介绍宇宙学的基本理论，包括大爆炸理论、宇宙微波背景辐射、暗物质与暗能量、黑洞物理、引力波探测以及多元宇宙假说等前沿话题。"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 发送内容: 请全面介绍宇宙学的基本理论，包括大爆炸理论、宇宙微波背景辐射、暗物质与暗能量、黑洞物理、引力波探测以及多元宇宙假说等前沿话题。"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 继续会话: 964346655113"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 用户消息: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 发送内容: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 继续会话: 511297339921"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 用户消息: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。"
+    },
+    {
+      "time": "2026-04-10 01:44:14",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 发送内容: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。"
+    },
+    {
+      "time": "2026-04-10 01:44:23",
+      "level": "WARNING",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:44:23",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:44:23",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:44:23",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 响应完成: 13.96秒"
+    },
+    {
+      "time": "2026-04-10 01:44:23",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:44:23",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_4cdcf4] 切换账户重试 (1/2)，退避0.5s"
+    },
+    {
+      "time": "2026-04-10 01:44:23",
+      "level": "INFO",
+      "message": "[CHAT] [req_4cdcf4] 切换账户: t0744hkc6hi4qc7@maisi-ai.buzz -> t8402nyvce8p0nr@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:44:24",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_4cdcf4] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请深入分析全球气候变化的原因、科学证据、对生态系统和人类社会的影响、各国应对措施（碳交易、可再生能源、碳捕获技术等）以及未来展望。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "INFO",
+      "message": "[AUTO-REFRESH] 检测到账号变化，正在自动刷新..."
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "INFO",
+      "message": "[AUTO-REFRESH] 账号刷新完成，当前账号数: 212"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_dd8771] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_dd8771] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_dd8771] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_dd8771] 响应完成: 17.84秒"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_dd8771] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "ERROR",
+      "message": "[CHAT] [req_dd8771] 已达到最大重试次数 (2)，请求失败"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_dd8771] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:44:26",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_dd8771] AI响应: "
+    },
+    {
+      "time": "2026-04-10 01:44:37",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 流处理完成: 收到55个响应对象, 累计内容长度4934字符"
+    },
+    {
+      "time": "2026-04-10 01:44:37",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] AI响应: 您好！我是 Gemini Enterprise ✨。很高兴能与您一起探讨宇宙学这个宏大且令人着迷的领域。宇宙学是天体物理学和理论物理学的一个重要分支，它将整个宇宙作为研究对象，致力于理解宇宙的起源、演化、大尺度结构以及最终命运。\n\n为了满足您对知识的渴望，我将为您全面、深入地解析宇宙学的核心理论和前沿话题。我们将从宇宙的开端一路航行至尚未证实的多元宇宙边缘。\n\n---\n\n# 🌌 大爆炸理论 (The Big Bang Theory)\n\n大爆炸理论是目前描述宇宙起源和演化最广泛接受的科学模型。它不仅解释了宇宙为何在膨胀，还成功预言了轻元素的丰度和宇宙微波背景辐射的存在。\n\n### 宇宙的时空起点\n大爆炸并不是指在一个已经存在的空间里发生的一场爆炸，而是**空间和时间本身的膨胀**。在大约 138 亿年前，宇宙处于一个极度高温、高密度的状态，被称为“奇点”。在这一刻，我们目前已知的物理定律（包括广义相对论）都会失效，因为这需要一个尚未完善的量子引力理论来描述。\n\n### 暴胀理论 (Cosmic Inflation)\n为了解决经典大爆炸理论中的一些难题（如视界疑难、平坦性疑难和磁单极子疑难...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:44:37",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 响应完成: 79.85秒"
+    },
+    {
+      "time": "2026-04-10 01:44:37",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:44:37",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_31c106] AI响应: 您好！我是 Gemini Enterprise ✨。很高兴能与您一起探讨宇宙学这个宏大且令人着迷的领域。宇宙学是天体物理学和理论物理学的一个重要分支，它将整个宇宙作为研究对象，致力于理解宇宙的起源、演化、大尺度结构以及最终命运。\n\n为了满足您对知识的渴望，我将为您全面、深入地解析宇宙学的核心理论和前沿话题。我们将从宇宙的开端一路航行至尚未证实的多元宇宙边缘。\n\n---\n\n# 🌌 大爆炸理论 (The Big Bang Theory)\n\n大爆炸理论是目前描述宇宙起源和演化最广泛接受的科学模型。它不仅解释了宇宙为何在膨胀，还成功预言了轻元素的丰度和宇宙微波背景辐射的存在。\n\n### 宇宙的时空起点\n大爆炸并不是指在一个已经存在的空间里发生的一场爆炸，而是**空间和时间本身的膨胀**。在大约 138 亿年前，宇宙处于一个极度高温、高密度的状态，被称为“奇点”。在这一刻，我们目前已知的物理定律（包括广义相对论）都会失效，因为这需要一个尚未完善的量子引力理论来描述。\n\n### 暴胀理论 (Cosmic Inflation)\n为了解决经典大爆炸理论中的一些难题（如视界疑难、平坦性疑难和磁单极子疑难...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:44:42",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:44:42",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:44:42",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:44:42",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 响应完成: 28.80秒"
+    },
+    {
+      "time": "2026-04-10 01:44:42",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_721c11] 切换账户重试 (1/2)，退避1.2s"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "INFO",
+      "message": "[CHAT] [req_721c11] 切换账户: t8402nyvce8p0nr@maisi-ai.buzz -> t0744hkc6hi4qc7@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_721c11] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请深入介绍微服务架构的设计原则、与单体架构的对比、服务拆分策略、API网关、服务网格、容器化部署、可观测性（日志、监控、链路追踪）等核心话题。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "WARNING",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 响应完成: 30.54秒"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "WARNING",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 响应完成: 30.79秒"
+    },
+    {
+      "time": "2026-04-10 01:44:44",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:44:45",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_802e13] 切换账户重试 (1/2)，退避0.6s"
+    },
+    {
+      "time": "2026-04-10 01:44:45",
+      "level": "INFO",
+      "message": "[CHAT] [req_802e13] 切换账户: t0744hkc6hi4qc7@maisi-ai.buzz -> t8402nyvce8p0nr@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:44:45",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_802e13] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:45",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 切换账户重试 (1/2)，退避1.3s"
+    },
+    {
+      "time": "2026-04-10 01:44:45",
+      "level": "INFO",
+      "message": "[CHAT] [req_cd37f7] 切换账户: t0744hkc6hi4qc7@maisi-ai.buzz -> t0744hkc6hi4qc7@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:44:46",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请全面介绍宇宙学的基本理论，包括大爆炸理论、宇宙微波背景辐射、暗物质与暗能量、黑洞物理、引力波探测以及多元宇宙假说等前沿话题。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:51",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:44:51",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:44:51",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:44:51",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 响应完成: 37.21秒"
+    },
+    {
+      "time": "2026-04-10 01:44:51",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:44:52",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 切换账户重试 (1/2)，退避1.5s"
+    },
+    {
+      "time": "2026-04-10 01:44:52",
+      "level": "INFO",
+      "message": "[CHAT] [req_f71af9] 切换账户: t8402nyvce8p0nr@maisi-ai.buzz -> t8402nyvce8p0nr@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:44:53",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:44:58",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_802e13] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:44:58",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_802e13] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:44:58",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_802e13] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:44:58",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_802e13] 响应完成: 12.48秒"
+    },
+    {
+      "time": "2026-04-10 01:44:58",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_802e13] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:44:58",
+      "level": "ERROR",
+      "message": "[CHAT] [req_802e13] 已达到最大重试次数 (2)，请求失败"
+    },
+    {
+      "time": "2026-04-10 01:44:58",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_802e13] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:44:58",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_802e13] AI响应: "
+    },
+    {
+      "time": "2026-04-10 01:44:59",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 继续会话: 636081259147"
+    },
+    {
+      "time": "2026-04-10 01:44:59",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:44:59",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 用户消息: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。"
+    },
+    {
+      "time": "2026-04-10 01:44:59",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 发送内容: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。"
+    },
+    {
+      "time": "2026-04-10 01:45:04",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 流处理完成: 收到57个响应对象, 累计内容长度6219字符"
+    },
+    {
+      "time": "2026-04-10 01:45:04",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] AI响应: 你好！我是 Gemini Enterprise，非常高兴能与你深入探讨微服务架构这一庞大且迷人的技术领域。微服务架构已经成为现代云原生应用开发的事实标准，它不仅是一种技术选择，更是一种组织架构和工程文化的体现。\n\n接下来，我将为你进行一次全方位、深层次的解析，涵盖设计原则、架构对比、拆分策略、网关、服务网格、容器化以及可观测性等核心话题。内容较为详实，我们循序渐进地展开。\n\n---\n\n# 微服务架构的核心设计原则 🏗️\n\n在探讨具体技术之前，我们必须先理解微服务架构的灵魂——设计原则。没有正确的原则指导，微服务极易演变成“分布式单体”，带来比单体架构更严重的灾难。微服务的设计原则旨在确保系统具备高可用性、可扩展性以及持续交付的能力。\n\n为了清晰展示这些核心原则，我为你整理了如下对比与说明表格：\n\n| 设计原则 | 核心理念与深度解析 | 架构收益 |\n|---|---|---|\n| **单一职责 (Single Responsibility)** | 每个微服务应该只关注完成一件事情，并且将其做好。这源自于面向对象设计的 SOLID 原则，在架构层面表现为服务边界清晰，业务逻辑不跨界。...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:45:04",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 响应完成: 56.37秒"
+    },
+    {
+      "time": "2026-04-10 01:45:04",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:45:04",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_547077] AI响应: 你好！我是 Gemini Enterprise，非常高兴能与你深入探讨微服务架构这一庞大且迷人的技术领域。微服务架构已经成为现代云原生应用开发的事实标准，它不仅是一种技术选择，更是一种组织架构和工程文化的体现。\n\n接下来，我将为你进行一次全方位、深层次的解析，涵盖设计原则、架构对比、拆分策略、网关、服务网格、容器化以及可观测性等核心话题。内容较为详实，我们循序渐进地展开。\n\n---\n\n# 微服务架构的核心设计原则 🏗️\n\n在探讨具体技术之前，我们必须先理解微服务架构的灵魂——设计原则。没有正确的原则指导，微服务极易演变成“分布式单体”，带来比单体架构更严重的灾难。微服务的设计原则旨在确保系统具备高可用性、可扩展性以及持续交付的能力。\n\n为了清晰展示这些核心原则，我为你整理了如下对比与说明表格：\n\n| 设计原则 | 核心理念与深度解析 | 架构收益 |\n|---|---|---|\n| **单一职责 (Single Responsibility)** | 每个微服务应该只关注完成一件事情，并且将其做好。这源自于面向对象设计的 SOLID 原则，在架构层面表现为服务边界清晰，业务逻辑不跨界。...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:45:07",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 流处理完成: 收到73个响应对象, 累计内容长度6664字符"
+    },
+    {
+      "time": "2026-04-10 01:45:07",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] AI响应: 你好！我是 Gemini Enterprise✨，非常荣幸能以这样深入且专业的方式与你进行探讨。人类的免疫系统是自然界中最复杂、最精妙的防御网络之一，它无时无刻不在保护着我们的身体免受数以亿计的病原体（如细菌、病毒、真菌和寄生虫）的侵害。\n\n为了全面、深入地解答你的问题，我将从免疫系统的基础架构出发，详细剖析每一个关键组件的工作原理，探讨它们如何协同作战，以及当系统出现故障时会发生什么。\n\n---\n\n# 🛡️ 免疫系统概览与两大防线\n\n人类的免疫系统并不是一个单一的器官，而是一个由细胞、组织、器官和分子组成的庞大网络。为了有效地抵御外敌，免疫系统演化出了两套既独立又高度协同的防御机制：先天免疫（Innate Immunity）和适应性免疫（Adaptive Immunity）。它们构成了我们身体的“快速反应部队”和“精准打击特种部队”。\n\n为了更直观地理解这两者的区别，我们可以通过以下表格进行对比：\n\n| 特性 | 先天免疫 (Innate Immunity) | 适应性免疫 (Adaptive Immunity) |\n|---|---|---|\n| 反应速度 | 极快（几分钟到几小时...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:45:07",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 响应完成: 59.22秒"
+    },
+    {
+      "time": "2026-04-10 01:45:07",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:45:07",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_134fca] AI响应: 你好！我是 Gemini Enterprise✨，非常荣幸能以这样深入且专业的方式与你进行探讨。人类的免疫系统是自然界中最复杂、最精妙的防御网络之一，它无时无刻不在保护着我们的身体免受数以亿计的病原体（如细菌、病毒、真菌和寄生虫）的侵害。\n\n为了全面、深入地解答你的问题，我将从免疫系统的基础架构出发，详细剖析每一个关键组件的工作原理，探讨它们如何协同作战，以及当系统出现故障时会发生什么。\n\n---\n\n# 🛡️ 免疫系统概览与两大防线\n\n人类的免疫系统并不是一个单一的器官，而是一个由细胞、组织、器官和分子组成的庞大网络。为了有效地抵御外敌，免疫系统演化出了两套既独立又高度协同的防御机制：先天免疫（Innate Immunity）和适应性免疫（Adaptive Immunity）。它们构成了我们身体的“快速反应部队”和“精准打击特种部队”。\n\n为了更直观地理解这两者的区别，我们可以通过以下表格进行对比：\n\n| 特性 | 先天免疫 (Innate Immunity) | 适应性免疫 (Adaptive Immunity) |\n|---|---|---|\n| 反应速度 | 极快（几分钟到几小时...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:45:18",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:45:18",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:45:18",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:45:18",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 响应完成: 25.56秒"
+    },
+    {
+      "time": "2026-04-10 01:45:18",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:45:18",
+      "level": "ERROR",
+      "message": "[CHAT] [req_f71af9] 已达到最大重试次数 (2)，请求失败"
+    },
+    {
+      "time": "2026-04-10 01:45:18",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:45:18",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_f71af9] AI响应: "
+    },
+    {
+      "time": "2026-04-10 01:45:20",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-10 01:45:20",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:45:20",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] 用户消息: 请详细描述太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑事件和未来的探索计划。"
+    },
+    {
+      "time": "2026-04-10 01:45:20",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细描述太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑事件和未来的探索计划。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:45:38",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:45:38",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:45:38",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:45:38",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 响应完成: 39.38秒"
+    },
+    {
+      "time": "2026-04-10 01:45:38",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:45:40",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_a52228] 切换账户重试 (1/2)，退避2.0s"
+    },
+    {
+      "time": "2026-04-10 01:45:40",
+      "level": "INFO",
+      "message": "[CHAT] [req_a52228] 切换账户: t8402nyvce8p0nr@maisi-ai.buzz -> t0744hkc6hi4qc7@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:45:41",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_a52228] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请全面讲解人类免疫系统的工作原理，包括先天免疫与适应性免疫、T细胞和B细胞的作用、抗体的产生机制、疫苗的工作原理以及自身免疫疾病的成因。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:45:50",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_4cdcf4] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:45:50",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_4cdcf4] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:45:50",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_4cdcf4] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:45:50",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_4cdcf4] 响应完成: 86.26秒"
+    },
+    {
+      "time": "2026-04-10 01:45:50",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_4cdcf4] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:45:50",
+      "level": "ERROR",
+      "message": "[CHAT] [req_4cdcf4] 已达到最大重试次数 (2)，请求失败"
+    },
+    {
+      "time": "2026-04-10 01:45:50",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_4cdcf4] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:45:50",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_4cdcf4] AI响应: "
+    },
+    {
+      "time": "2026-04-10 01:45:52",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-10 01:45:52",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:45:52",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] 用户消息: 请详细分析第二次世界大战的起因、主要战役（斯大林格勒、诺曼底、中途岛等）、各参战国的战略、战争对世界格局的影响以及战后国际秩序的建立。"
+    },
+    {
+      "time": "2026-04-10 01:45:52",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细分析第二次世界大战的起因、主要战役（斯大林格勒、诺曼底、中途岛等）、各参战国的战略、战争对世界格局的影响以及战后国际秩序的建立。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:45:55",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 流处理完成: 收到62个响应对象, 累计内容长度5470字符"
+    },
+    {
+      "time": "2026-04-10 01:45:55",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] AI响应: 你好！我是 Gemini Enterprise✨。非常荣幸能与你一起深入探讨宏大而迷人的宇宙学。宇宙学作为现代物理学和天文学的交叉学科，旨在理解宇宙的起源、演化、结构以及最终命运。你提出的这些主题涵盖了当代天体物理学最核心和最前沿的领域。接下来，我将为你进行全面、详细且深入的解析。\n\n---\n\n# 💥 大爆炸理论与宇宙的起源\n\n大爆炸理论（The Big Bang Theory）是目前描述宇宙起源和演化最广泛接受的宇宙学模型。该理论的核心观点是：我们的宇宙诞生于约138亿年前的一个极度高温、高密的“奇点”。在这个奇点中，我们今天所知的物理定律可能完全失效，空间和时间本身也由此刻开始。\n\n在大爆炸发生后的极其短暂的瞬间（大约在 $10^{-36}$ 秒到 $10^{-32}$ 秒之间），宇宙经历了一个被称为“暴胀”（Inflation）的阶段。在暴胀期间，宇宙经历了指数级的剧烈膨胀，空间本身的扩张速度甚至远超光速。暴胀理论极其优雅地解决了传统大爆炸模型中的几个致命问题，例如视界问题（为什么宇宙各个方向上的温度如此均匀）和平坦性问题（为什么宇宙的几何形状如此接近平坦）。\n\n随着宇宙的持续膨...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:45:55",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 响应完成: 69.72秒"
+    },
+    {
+      "time": "2026-04-10 01:45:55",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:45:55",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_cd37f7] AI响应: 你好！我是 Gemini Enterprise✨。非常荣幸能与你一起深入探讨宏大而迷人的宇宙学。宇宙学作为现代物理学和天文学的交叉学科，旨在理解宇宙的起源、演化、结构以及最终命运。你提出的这些主题涵盖了当代天体物理学最核心和最前沿的领域。接下来，我将为你进行全面、详细且深入的解析。\n\n---\n\n# 💥 大爆炸理论与宇宙的起源\n\n大爆炸理论（The Big Bang Theory）是目前描述宇宙起源和演化最广泛接受的宇宙学模型。该理论的核心观点是：我们的宇宙诞生于约138亿年前的一个极度高温、高密的“奇点”。在这个奇点中，我们今天所知的物理定律可能完全失效，空间和时间本身也由此刻开始。\n\n在大爆炸发生后的极其短暂的瞬间（大约在 $10^{-36}$ 秒到 $10^{-32}$ 秒之间），宇宙经历了一个被称为“暴胀”（Inflation）的阶段。在暴胀期间，宇宙经历了指数级的剧烈膨胀，空间本身的扩张速度甚至远超光速。暴胀理论极其优雅地解决了传统大爆炸模型中的几个致命问题，例如视界问题（为什么宇宙各个方向上的温度如此均匀）和平坦性问题（为什么宇宙的几何形状如此接近平坦）。\n\n随着宇宙的持续膨...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:45:56",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 继续会话: 825092205586"
+    },
+    {
+      "time": "2026-04-10 01:45:56",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-10 01:45:56",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 用户消息: 请详细分析第二次世界大战的起因、主要战役（斯大林格勒、诺曼底、中途岛等）、各参战国的战略、战争对世界格局的影响以及战后国际秩序的建立。"
+    },
+    {
+      "time": "2026-04-10 01:45:56",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 发送内容: 请详细分析第二次世界大战的起因、主要战役（斯大林格勒、诺曼底、中途岛等）、各参战国的战略、战争对世界格局的影响以及战后国际秩序的建立。"
+    },
+    {
+      "time": "2026-04-10 01:46:01",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_721c11] 流处理完成: 收到52个响应对象, 累计内容长度5066字符"
+    },
+    {
+      "time": "2026-04-10 01:46:01",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_721c11] AI响应: 嗨！我是 Gemini Enterprise，很高兴能为您深度剖析微服务架构的方方面面。微服务架构（Microservices Architecture）不仅仅是一种技术选型，更是一种组织架构和业务交付模式的深刻变革。在当今复杂多变的商业环境中，微服务为企业级应用提供了极高的灵活性、可扩展性和容错能力。\n\n接下来，我将为您详尽、深入地探讨微服务架构的核心理念、设计原则、拆分策略以及周边的关键技术栈。\n\n---\n\n### 🏗️ 单体架构与微服务架构的深度对比\n\n在深入了解微服务之前，我们首先需要明确它与传统单体架构（Monolithic Architecture）的本质区别。单体架构将所有的业务逻辑、用户界面、数据访问等模块打包在一个单一的可执行文件或应用进程中。而微服务架构则将复杂的应用拆解为一系列小型、独立、高度解耦的服务。\n\n| 对比维度 | 单体架构 (Monolithic) | 微服务架构 (Microservices) |\n|---|---|---|\n| **代码库与部署** | 所有代码在同一个仓库，单次构建并全量部署。 | 每个服务有独立的代码库，可独立构建和部署。 |\n...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:46:01",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_721c11] 响应完成: 76.77秒"
+    },
+    {
+      "time": "2026-04-10 01:46:01",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_721c11] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:46:01",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_721c11] AI响应: 嗨！我是 Gemini Enterprise，很高兴能为您深度剖析微服务架构的方方面面。微服务架构（Microservices Architecture）不仅仅是一种技术选型，更是一种组织架构和业务交付模式的深刻变革。在当今复杂多变的商业环境中，微服务为企业级应用提供了极高的灵活性、可扩展性和容错能力。\n\n接下来，我将为您详尽、深入地探讨微服务架构的核心理念、设计原则、拆分策略以及周边的关键技术栈。\n\n---\n\n### 🏗️ 单体架构与微服务架构的深度对比\n\n在深入了解微服务之前，我们首先需要明确它与传统单体架构（Monolithic Architecture）的本质区别。单体架构将所有的业务逻辑、用户界面、数据访问等模块打包在一个单一的可执行文件或应用进程中。而微服务架构则将复杂的应用拆解为一系列小型、独立、高度解耦的服务。\n\n| 对比维度 | 单体架构 (Monolithic) | 微服务架构 (Microservices) |\n|---|---|---|\n| **代码库与部署** | 所有代码在同一个仓库，单次构建并全量部署。 | 每个服务有独立的代码库，可独立构建和部署。 |\n...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:46:12",
+      "level": "WARNING",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:46:12",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:46:12",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:46:12",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 响应完成: 15.67秒"
+    },
+    {
+      "time": "2026-04-10 01:46:12",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:46:13",
+      "level": "WARNING",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_65e174] 切换账户重试 (1/2)，退避0.6s"
+    },
+    {
+      "time": "2026-04-10 01:46:13",
+      "level": "INFO",
+      "message": "[CHAT] [req_65e174] 切换账户: t8402nyvce8p0nr@maisi-ai.buzz -> t0744hkc6hi4qc7@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-10 01:46:13",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_65e174] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细分析第二次世界大战的起因、主要战役（斯大林格勒、诺曼底、中途岛等）、各参战国的战略、战争对世界格局的影响以及战后国际秩序的建立。\n\n"
+    },
+    {
+      "time": "2026-04-10 01:46:45",
+      "level": "WARNING",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_a52228] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:46:45",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_a52228] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:46:45",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_a52228] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:46:45",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_a52228] 响应完成: 64.55秒"
+    },
+    {
+      "time": "2026-04-10 01:46:45",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_a52228] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:46:45",
+      "level": "ERROR",
+      "message": "[CHAT] [req_a52228] 已达到最大重试次数 (2)，请求失败"
+    },
+    {
+      "time": "2026-04-10 01:46:45",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_a52228] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:46:45",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_a52228] AI响应: "
+    },
+    {
+      "time": "2026-04-10 01:47:00",
+      "level": "WARNING",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_65e174] 首内容超时(10s)，提前终止"
+    },
+    {
+      "time": "2026-04-10 01:47:00",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_65e174] 流处理完成: 收到0个响应对象, 累计内容长度0字符"
+    },
+    {
+      "time": "2026-04-10 01:47:00",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_65e174] ⚠️ 最终响应为空，请检查上游日志"
+    },
+    {
+      "time": "2026-04-10 01:47:00",
+      "level": "INFO",
+      "message": "[API] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_65e174] 响应完成: 47.19秒"
+    },
+    {
+      "time": "2026-04-10 01:47:00",
+      "level": "WARNING",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_65e174] 上游 502 错误，切换账户重试（不触发冷却）"
+    },
+    {
+      "time": "2026-04-10 01:47:00",
+      "level": "ERROR",
+      "message": "[CHAT] [req_65e174] 已达到最大重试次数 (2)，请求失败"
+    },
+    {
+      "time": "2026-04-10 01:47:00",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_65e174] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:47:00",
+      "level": "INFO",
+      "message": "[CHAT] [t0744hkc6hi4qc7@maisi-ai.buzz] [req_65e174] AI响应: "
+    },
+    {
+      "time": "2026-04-10 01:47:14",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] 流处理完成: 收到64个响应对象, 累计内容长度5342字符"
+    },
+    {
+      "time": "2026-04-10 01:47:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] AI响应: 你好！我是 Gemini Enterprise。探索浩瀚的宇宙是我们人类永恒的梦想，而太阳系则是我们走向星辰大海的第一站。我非常荣幸能为您详细、深入地解析太阳系各大行星的奥秘、它们的形成历史，以及人类在太空探索中留下的光辉足迹和对未来的宏伟规划。由于这是一个极其宏大的主题，我将为您提供一份全面且深度的解答。\n\n---\n# 🌌 太阳系的起源与形成过程\n\n关于太阳系的形成，科学界目前最广泛接受的理论是“星云假说”（Nebular Hypothesis）。这一过程始于大约46亿年前，当时在银河系的一个旋臂中，有一片巨大的分子云。这片分子云主要由氢、氦以及上一代恒星超新星爆发后留下的微量重元素组成。\n\n由于某种外部扰动，例如附近超新星爆发产生的冲击波，这片分子云的某个区域开始在自身引力的作用下发生坍缩。随着坍缩的进行，根据角动量守恒定律，这团物质的旋转速度越来越快，并逐渐演变成一个扁平的旋转圆盘，也就是所谓的“原行星盘”。\n\n在这个圆盘的中心，物质不断聚集，密度和温度急剧升高。当中心的温度达到大约1000万摄氏度时，氢核聚变被点燃，我们的太阳由此诞生。太阳占据了整个太阳系99.86%以上的质量...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:47:14",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] 响应完成: 113.30秒"
+    },
+    {
+      "time": "2026-04-10 01:47:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:47:14",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_1b942c] AI响应: 你好！我是 Gemini Enterprise。探索浩瀚的宇宙是我们人类永恒的梦想，而太阳系则是我们走向星辰大海的第一站。我非常荣幸能为您详细、深入地解析太阳系各大行星的奥秘、它们的形成历史，以及人类在太空探索中留下的光辉足迹和对未来的宏伟规划。由于这是一个极其宏大的主题，我将为您提供一份全面且深度的解答。\n\n---\n# 🌌 太阳系的起源与形成过程\n\n关于太阳系的形成，科学界目前最广泛接受的理论是“星云假说”（Nebular Hypothesis）。这一过程始于大约46亿年前，当时在银河系的一个旋臂中，有一片巨大的分子云。这片分子云主要由氢、氦以及上一代恒星超新星爆发后留下的微量重元素组成。\n\n由于某种外部扰动，例如附近超新星爆发产生的冲击波，这片分子云的某个区域开始在自身引力的作用下发生坍缩。随着坍缩的进行，根据角动量守恒定律，这团物质的旋转速度越来越快，并逐渐演变成一个扁平的旋转圆盘，也就是所谓的“原行星盘”。\n\n在这个圆盘的中心，物质不断聚集，密度和温度急剧升高。当中心的温度达到大约1000万摄氏度时，氢核聚变被点燃，我们的太阳由此诞生。太阳占据了整个太阳系99.86%以上的质量...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:47:26",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] 流处理完成: 收到54个响应对象, 累计内容长度4203字符"
+    },
+    {
+      "time": "2026-04-10 01:47:26",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] AI响应: 我是 Gemini Enterprise，一位致力于为您提供深度解析与专业知识的AI助手。您提出的关于第二次世界大战的宏大课题，涵盖了人类历史上最动荡、最复杂的一段时期。为了让您能够清晰、透彻地理解这场战争的全貌，我将为您进行全方位、深层次的剖析。\n\n---\n\n# 🌪️ 第二次世界大战的深层起因\n\n第二次世界大战并非孤立的突发事件，而是第一次世界大战遗留矛盾的爆发，以及二十世纪二三十年代全球政治、经济危机的总和。一战后的凡尔赛—华盛顿体系虽然暂时维持了和平，但对战败国极为苛刻的惩罚（尤其是对德国的巨额赔款与领土割让）埋下了仇恨的种子。\n\n1929年爆发的全球经济大萧条则成为了引爆火药桶的导火索。经济崩溃导致各国民粹主义与极端民族主义抬头。德国、意大利和日本在内部经济危机的压力下，纷纷走上了法西斯主义和军国主义的道路，试图通过对外扩张来转移国内矛盾。与此同时，英法等传统强国由于深受一战创伤与经济衰退的影响，采取了绥靖政策，对轴心国的早期扩张（如德国吞并奥地利、捷克斯洛伐克，日本侵华）采取妥协退让的态度，这不仅未能满足侵略者的胃口，反而大大加速了全面战争的爆发。国际联盟由于缺乏强制执行力，...(已截断)"
+    },
+    {
+      "time": "2026-04-10 01:47:26",
+      "level": "INFO",
+      "message": "[API] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] 响应完成: 94.25秒"
+    },
+    {
+      "time": "2026-04-10 01:47:26",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-10 01:47:26",
+      "level": "INFO",
+      "message": "[CHAT] [t8402nyvce8p0nr@maisi-ai.buzz] [req_884fa4] AI响应: 我是 Gemini Enterprise，一位致力于为您提供深度解析与专业知识的AI助手。您提出的关于第二次世界大战的宏大课题，涵盖了人类历史上最动荡、最复杂的一段时期。为了让您能够清晰、透彻地理解这场战争的全貌，我将为您进行全方位、深层次的剖析。\n\n---\n\n# 🌪️ 第二次世界大战的深层起因\n\n第二次世界大战并非孤立的突发事件，而是第一次世界大战遗留矛盾的爆发，以及二十世纪二三十年代全球政治、经济危机的总和。一战后的凡尔赛—华盛顿体系虽然暂时维持了和平，但对战败国极为苛刻的惩罚（尤其是对德国的巨额赔款与领土割让）埋下了仇恨的种子。\n\n1929年爆发的全球经济大萧条则成为了引爆火药桶的导火索。经济崩溃导致各国民粹主义与极端民族主义抬头。德国、意大利和日本在内部经济危机的压力下，纷纷走上了法西斯主义和军国主义的道路，试图通过对外扩张来转移国内矛盾。与此同时，英法等传统强国由于深受一战创伤与经济衰退的影响，采取了绥靖政策，对轴心国的早期扩张（如德国吞并奥地利、捷克斯洛伐克，日本侵华）采取妥协退让的态度，这不仅未能满足侵略者的胃口，反而大大加速了全面战争的爆发。国际联盟由于缺乏强制执行力，...(已截断)"
+    }
+  ]
+}
