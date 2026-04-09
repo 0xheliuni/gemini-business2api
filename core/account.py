@@ -163,6 +163,7 @@ class AccountManager:
         self.conversation_count = 0  # 累计成功次数（用于统计展示）
         self.failure_count = 0  # 累计失败次数（用于统计展示）
         self.session_usage_count = 0  # 本次启动后使用次数（用于均衡轮询）
+        self.active_requests = 0  # 当前正在处理的请求数（实时并发追踪）
         self.disabled_reason: Optional[str] = None  # 自动禁用原因（如 "403 Access Restricted"）
 
     def handle_non_http_error(self, error_context: str = "", request_id: str = "", quota_type: Optional[str] = None) -> None:
@@ -701,7 +702,11 @@ class MultiAccountManager:
 
         score = 0.0
 
-        # --- 主信号：当前压力 (权重最高) ---
+        # --- 最高优先级：实时并发压力（正在处理的请求数）---
+        # 权重 100，确保优先分配给空闲账号
+        score += acc.active_requests * 100.0
+
+        # --- 次要信号：历史使用次数 ---
         score += acc.session_usage_count * 10.0
 
         # --- 强风险项：配额压力 ---

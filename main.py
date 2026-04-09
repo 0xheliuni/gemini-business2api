@@ -1855,6 +1855,7 @@ async def admin_get_accounts(request: Request):
                 "cooldown_reason": cooldown_reason,
                 "conversation_count": account_manager.conversation_count,
                 "session_usage_count": account_manager.session_usage_count,
+                "active_requests": account_manager.active_requests,
                 "quota_status": quota_status,
                 "trial_end": config.trial_end,
                 "trial_days_remaining": config.get_trial_days_remaining(),
@@ -3114,6 +3115,9 @@ async def chat_impl(req: ChatRequest, request: Request, authorization: Optional[
         current_retry_mode = is_retry_mode
         current_file_ids = []
 
+        # 追踪实时并发
+        account_manager.active_requests += 1
+
         for retry_idx in range(max_retries):
             try:
                 # 获取或创建 Session
@@ -3176,6 +3180,7 @@ async def chat_impl(req: ChatRequest, request: Request, authorization: Optional[
                 # 请求成功（conversation_count 已在生成器内统计）
                 uptime_tracker.record_request("account_pool", True)
                 await finalize_result("success", 200, None)
+                account_manager.active_requests = max(0, account_manager.active_requests - 1)
                 break
 
             except (httpx.HTTPError, ssl.SSLError, HTTPException) as e:
@@ -3243,8 +3248,10 @@ async def chat_impl(req: ChatRequest, request: Request, authorization: Optional[
                             conv_key, new_account.config.account_id, new_sess
                         )
 
-                        # 更新账户管理器
+                        # 更新账户管理器（切换并发追踪）
+                        account_manager.active_requests = max(0, account_manager.active_requests - 1)
                         account_manager = new_account
+                        account_manager.active_requests += 1
                         request.state.last_account_id = (
                             account_manager.config.account_id
                         )
@@ -3276,6 +3283,7 @@ async def chat_impl(req: ChatRequest, request: Request, authorization: Optional[
                         )
                         if req.stream:
                             yield f"data: {json.dumps({'error': {'message': 'Account Failover Failed'}})}\n\n"
+                        account_manager.active_requests = max(0, account_manager.active_requests - 1)
                         return
                 else:
                     # 已达到最大重试次数
@@ -3286,6 +3294,7 @@ async def chat_impl(req: ChatRequest, request: Request, authorization: Optional[
                     await finalize_result(status, status_code, error_detail)
                     if req.stream:
                         yield f"data: {json.dumps({'error': {'message': f'Max retries ({max_retries}) exceeded: {error_detail}'}})}\n\n"
+                    account_manager.active_requests = max(0, account_manager.active_requests - 1)
                     return
 
     if req.stream:
