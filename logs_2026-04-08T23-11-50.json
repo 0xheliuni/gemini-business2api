@@ -1,0 +1,625 @@
+{
+  "exported_at": "2026-04-08T23:11:50.266Z",
+  "logs": [
+    {
+      "time": "2026-04-09 07:08:08",
+      "level": "INFO",
+      "message": "[LOG] 日志已清空"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t7602vshlakvc76@maisi-ai.online] [req_e0045b] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t7602vshlakvc76@maisi-ai.online] [req_e0045b] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t7602vshlakvc76@maisi-ai.online] [req_e0045b] 用户消息: 请系统介绍深度学习的发展历程，从感知机到Transformer架构，详细解释CNN、RNN、LSTM、GAN、Transformer、扩散模型等关键模型的原理与应用场景。"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[API] [t7602vshlakvc76@maisi-ai.online] [req_e0045b] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请系统介绍深度学习的发展历程，从感知机到Transformer架构，详细解释CNN、RNN、LSTM、GAN、Transformer、扩散模型等关键模型的原理与应用场景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t71143dbwrw6z5p@maisi-ai.buzz] [req_f1dd0c] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t71143dbwrw6z5p@maisi-ai.buzz] [req_f1dd0c] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t71143dbwrw6z5p@maisi-ai.buzz] [req_f1dd0c] 用户消息: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[API] [t71143dbwrw6z5p@maisi-ai.buzz] [req_f1dd0c] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t78261vpzizfa5n@maisi-ai.online] [req_f4b430] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t78261vpzizfa5n@maisi-ai.online] [req_f4b430] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t78261vpzizfa5n@maisi-ai.online] [req_f4b430] 用户消息: 请深入分析全球气候变化的原因、科学证据、对生态系统和人类社会的影响、各国应对措施（碳交易、可再生能源、碳捕获技术等）以及未来展望。"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[API] [t78261vpzizfa5n@maisi-ai.online] [req_f4b430] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请深入分析全球气候变化的原因、科学证据、对生态系统和人类社会的影响、各国应对措施（碳交易、可再生能源、碳捕获技术等）以及未来展望。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t7716uvb8dlxxkl@maisi-ai.buzz] [req_362dcd] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t7716uvb8dlxxkl@maisi-ai.buzz] [req_362dcd] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t7716uvb8dlxxkl@maisi-ai.buzz] [req_362dcd] 用户消息: 请系统讲解分布式系统的核心概念，包括CAP定理、一致性协议（Paxos、Raft）、分布式事务、服务发现、负载均衡等，并结合实际案例说明。"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[API] [t7716uvb8dlxxkl@maisi-ai.buzz] [req_362dcd] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请系统讲解分布式系统的核心概念，包括CAP定理、一致性协议（Paxos、Raft）、分布式事务、服务发现、负载均衡等，并结合实际案例说明。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t5880cvie8kyn0k@maisi-ai.com] [req_0c723b] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t5880cvie8kyn0k@maisi-ai.com] [req_0c723b] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[CHAT] [t5880cvie8kyn0k@maisi-ai.com] [req_0c723b] 用户消息: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。"
+    },
+    {
+      "time": "2026-04-09 07:08:17",
+      "level": "INFO",
+      "message": "[API] [t5880cvie8kyn0k@maisi-ai.com] [req_0c723b] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:25",
+      "level": "WARNING",
+      "message": "[CHAT] [t7602vshlakvc76@maisi-ai.online] [req_e0045b] 切换账户重试 (1/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:25",
+      "level": "INFO",
+      "message": "[CHAT] [req_e0045b] 切换账户: t7602vshlakvc76@maisi-ai.online -> t8188u7tvhslkn6@maisi-ai.online"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "WARNING",
+      "message": "[CHAT] [t5880cvie8kyn0k@maisi-ai.com] [req_0c723b] 切换账户重试 (1/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "INFO",
+      "message": "[CHAT] [req_0c723b] 切换账户: t5880cvie8kyn0k@maisi-ai.com -> t6439uj5cu7mabv@maisi-ai.com"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "WARNING",
+      "message": "[CHAT] [t78261vpzizfa5n@maisi-ai.online] [req_f4b430] 切换账户重试 (1/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "INFO",
+      "message": "[CHAT] [req_f4b430] 切换账户: t78261vpzizfa5n@maisi-ai.online -> t8911q4wu8bmd6s@maisi-ai.buzz"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "INFO",
+      "message": "[API] [t8188u7tvhslkn6@maisi-ai.online] [req_e0045b] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请系统介绍深度学习的发展历程，从感知机到Transformer架构，详细解释CNN、RNN、LSTM、GAN、Transformer、扩散模型等关键模型的原理与应用场景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "INFO",
+      "message": "[API] [t8911q4wu8bmd6s@maisi-ai.buzz] [req_f4b430] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请深入分析全球气候变化的原因、科学证据、对生态系统和人类社会的影响、各国应对措施（碳交易、可再生能源、碳捕获技术等）以及未来展望。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "INFO",
+      "message": "[API] [t6439uj5cu7mabv@maisi-ai.com] [req_0c723b] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "WARNING",
+      "message": "[CHAT] [t7716uvb8dlxxkl@maisi-ai.buzz] [req_362dcd] 切换账户重试 (1/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "INFO",
+      "message": "[CHAT] [req_362dcd] 切换账户: t7716uvb8dlxxkl@maisi-ai.buzz -> t0713cz1qcz91su@maisi-ai.com"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "WARNING",
+      "message": "[CHAT] [t71143dbwrw6z5p@maisi-ai.buzz] [req_f1dd0c] 切换账户重试 (1/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "INFO",
+      "message": "[CHAT] [req_f1dd0c] 切换账户: t71143dbwrw6z5p@maisi-ai.buzz -> t4784kfoovao1zn@maisi-ai.online"
+    },
+    {
+      "time": "2026-04-09 07:08:26",
+      "level": "INFO",
+      "message": "[API] [t0713cz1qcz91su@maisi-ai.com] [req_362dcd] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请系统讲解分布式系统的核心概念，包括CAP定理、一致性协议（Paxos、Raft）、分布式事务、服务发现、负载均衡等，并结合实际案例说明。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:27",
+      "level": "INFO",
+      "message": "[API] [t4784kfoovao1zn@maisi-ai.online] [req_f1dd0c] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:33",
+      "level": "WARNING",
+      "message": "[CHAT] [t8188u7tvhslkn6@maisi-ai.online] [req_e0045b] 切换账户重试 (2/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:33",
+      "level": "INFO",
+      "message": "[CHAT] [req_e0045b] 切换账户: t8188u7tvhslkn6@maisi-ai.online -> t6433l9qn7tlyo5@maisi-ai.com"
+    },
+    {
+      "time": "2026-04-09 07:08:34",
+      "level": "INFO",
+      "message": "[API] [t6433l9qn7tlyo5@maisi-ai.com] [req_e0045b] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请系统介绍深度学习的发展历程，从感知机到Transformer架构，详细解释CNN、RNN、LSTM、GAN、Transformer、扩散模型等关键模型的原理与应用场景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "WARNING",
+      "message": "[CHAT] [t0713cz1qcz91su@maisi-ai.com] [req_362dcd] 切换账户重试 (2/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "INFO",
+      "message": "[CHAT] [req_362dcd] 切换账户: t0713cz1qcz91su@maisi-ai.com -> t2419rn1m69m4cv@maisi-ai.com"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "WARNING",
+      "message": "[CHAT] [t4784kfoovao1zn@maisi-ai.online] [req_f1dd0c] 切换账户重试 (2/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "INFO",
+      "message": "[CHAT] [req_f1dd0c] 切换账户: t4784kfoovao1zn@maisi-ai.online -> t1612a13q9ljq3c@maisi-ai.com"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "WARNING",
+      "message": "[CHAT] [t6439uj5cu7mabv@maisi-ai.com] [req_0c723b] 切换账户重试 (2/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "INFO",
+      "message": "[CHAT] [req_0c723b] 切换账户: t6439uj5cu7mabv@maisi-ai.com -> t7333k00ix98fmi@maisi-ai.online"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "WARNING",
+      "message": "[CHAT] [t8911q4wu8bmd6s@maisi-ai.buzz] [req_f4b430] 切换账户重试 (2/3)"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "INFO",
+      "message": "[CHAT] [req_f4b430] 切换账户: t8911q4wu8bmd6s@maisi-ai.buzz -> t34114hnfj6ul8q@maisi-ai.com"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "INFO",
+      "message": "[API] [t2419rn1m69m4cv@maisi-ai.com] [req_362dcd] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请系统讲解分布式系统的核心概念，包括CAP定理、一致性协议（Paxos、Raft）、分布式事务、服务发现、负载均衡等，并结合实际案例说明。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "INFO",
+      "message": "[API] [t34114hnfj6ul8q@maisi-ai.com] [req_f4b430] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请深入分析全球气候变化的原因、科学证据、对生态系统和人类社会的影响、各国应对措施（碳交易、可再生能源、碳捕获技术等）以及未来展望。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:35",
+      "level": "INFO",
+      "message": "[API] [t1612a13q9ljq3c@maisi-ai.com] [req_f1dd0c] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:36",
+      "level": "INFO",
+      "message": "[API] [t7333k00ix98fmi@maisi-ai.online] [req_0c723b] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:42",
+      "level": "ERROR",
+      "message": "[CHAT] [req_e0045b] 已达到最大重试次数 (3)，请求失败"
+    },
+    {
+      "time": "2026-04-09 07:08:42",
+      "level": "INFO",
+      "message": "[CHAT] [t6433l9qn7tlyo5@maisi-ai.com] [req_e0045b] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:08:42",
+      "level": "INFO",
+      "message": "[CHAT] [t6433l9qn7tlyo5@maisi-ai.com] [req_e0045b] AI响应: "
+    },
+    {
+      "time": "2026-04-09 07:08:43",
+      "level": "ERROR",
+      "message": "[CHAT] [req_362dcd] 已达到最大重试次数 (3)，请求失败"
+    },
+    {
+      "time": "2026-04-09 07:08:43",
+      "level": "INFO",
+      "message": "[CHAT] [t2419rn1m69m4cv@maisi-ai.com] [req_362dcd] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:08:43",
+      "level": "INFO",
+      "message": "[CHAT] [t2419rn1m69m4cv@maisi-ai.com] [req_362dcd] AI响应: "
+    },
+    {
+      "time": "2026-04-09 07:08:43",
+      "level": "ERROR",
+      "message": "[CHAT] [req_f4b430] 已达到最大重试次数 (3)，请求失败"
+    },
+    {
+      "time": "2026-04-09 07:08:43",
+      "level": "INFO",
+      "message": "[CHAT] [t34114hnfj6ul8q@maisi-ai.com] [req_f4b430] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:08:43",
+      "level": "INFO",
+      "message": "[CHAT] [t34114hnfj6ul8q@maisi-ai.com] [req_f4b430] AI响应: "
+    },
+    {
+      "time": "2026-04-09 07:08:44",
+      "level": "INFO",
+      "message": "[CHAT] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:08:44",
+      "level": "INFO",
+      "message": "[CHAT] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:08:44",
+      "level": "INFO",
+      "message": "[CHAT] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] 用户消息: 请全面讲解现代操作系统的核心模块，包括进程管理、内存管理、文件系统、I/O系统、安全机制等，并对比Linux和Windows在这些方面的设计差异。"
+    },
+    {
+      "time": "2026-04-09 07:08:44",
+      "level": "INFO",
+      "message": "[API] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请全面讲解现代操作系统的核心模块，包括进程管理、内存管理、文件系统、I/O系统、安全机制等，并对比Linux和Windows在这些方面的设计差异。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:45",
+      "level": "INFO",
+      "message": "[CHAT] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:08:45",
+      "level": "INFO",
+      "message": "[CHAT] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:08:45",
+      "level": "INFO",
+      "message": "[CHAT] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] 用户消息: 请详细讲解编译器的工作原理和构建过程，包括词法分析、语法分析、语义分析、中间代码生成、代码优化和目标代码生成各阶段的核心算法和技术。"
+    },
+    {
+      "time": "2026-04-09 07:08:45",
+      "level": "INFO",
+      "message": "[API] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细讲解编译器的工作原理和构建过程，包括词法分析、语法分析、语义分析、中间代码生成、代码优化和目标代码生成各阶段的核心算法和技术。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:08:45",
+      "level": "INFO",
+      "message": "[CHAT] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:08:45",
+      "level": "INFO",
+      "message": "[CHAT] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:08:45",
+      "level": "INFO",
+      "message": "[CHAT] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] 用户消息: 请详细描述太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑事件和未来的探索计划。"
+    },
+    {
+      "time": "2026-04-09 07:08:45",
+      "level": "INFO",
+      "message": "[API] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细描述太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑事件和未来的探索计划。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:09:36",
+      "level": "INFO",
+      "message": "[API] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] 流处理完成: 收到61个响应对象, 累计内容长度6273字符"
+    },
+    {
+      "time": "2026-04-09 07:09:36",
+      "level": "INFO",
+      "message": "[CHAT] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] AI响应: 你好！我是 Gemini Enterprise，非常高兴能与你探讨这个计算机科学领域中最具挑战性且充满魅力的硬核话题。编译原理被誉为计算机科学的“皇冠上的明珠”，它不仅是一门技术，更是一门将人类逻辑思维（高级语言）精确映射为硅片物理脉冲（机器指令）的艺术。\n\n为了满足你对深度和细节的追求，我将为你进行一次全景式、极其详尽的深度剖析。我们将逐一拆解编译器的每一个核心模块，探讨其背后的经典算法与工程实践。\n\n---\n\n# ⚙️ 编译器的宏观架构与工作流程概览\n\n在深入各个阶段之前，我们首先需要建立对编译器整体架构的宏观认知。现代编译器通常采用“前端（Front-end）- 中端（Middle-end）- 后端（Back-end）”的三段式设计。这种解耦设计不仅极大地提高了编译器的可维护性，还促成了如 LLVM 这样支持多语言、多目标架构的伟大工程。\n\n| 编译器模块 | 核心职责与涵盖阶段 | 主要输出物 |\n|---|---|---|\n| **前端 (Front-end)** | 理解源语言的结构与含义。涵盖词法分析、语法分析、语义分析。 | 抽象语法树 (AST)、附带类型信息的符号表...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:09:36",
+      "level": "INFO",
+      "message": "[API] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] 响应完成: 51.69秒"
+    },
+    {
+      "time": "2026-04-09 07:09:36",
+      "level": "INFO",
+      "message": "[CHAT] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:09:36",
+      "level": "INFO",
+      "message": "[CHAT] [t7664smbohk7zd5@maisi-ai.com] [req_660ef2] AI响应: 你好！我是 Gemini Enterprise，非常高兴能与你探讨这个计算机科学领域中最具挑战性且充满魅力的硬核话题。编译原理被誉为计算机科学的“皇冠上的明珠”，它不仅是一门技术，更是一门将人类逻辑思维（高级语言）精确映射为硅片物理脉冲（机器指令）的艺术。\n\n为了满足你对深度和细节的追求，我将为你进行一次全景式、极其详尽的深度剖析。我们将逐一拆解编译器的每一个核心模块，探讨其背后的经典算法与工程实践。\n\n---\n\n# ⚙️ 编译器的宏观架构与工作流程概览\n\n在深入各个阶段之前，我们首先需要建立对编译器整体架构的宏观认知。现代编译器通常采用“前端（Front-end）- 中端（Middle-end）- 后端（Back-end）”的三段式设计。这种解耦设计不仅极大地提高了编译器的可维护性，还促成了如 LLVM 这样支持多语言、多目标架构的伟大工程。\n\n| 编译器模块 | 核心职责与涵盖阶段 | 主要输出物 |\n|---|---|---|\n| **前端 (Front-end)** | 理解源语言的结构与含义。涵盖词法分析、语法分析、语义分析。 | 抽象语法树 (AST)、附带类型信息的符号表...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:09:38",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] 继续会话: 948731581139"
+    },
+    {
+      "time": "2026-04-09 07:09:38",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:09:38",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] 用户消息: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。"
+    },
+    {
+      "time": "2026-04-09 07:09:38",
+      "level": "INFO",
+      "message": "[API] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] 发送内容: 请详细介绍量子计算的基本原理、发展历程、主要技术路线（超导、离子阱、光量子等）、当前面临的挑战以及未来的应用前景。"
+    },
+    {
+      "time": "2026-04-09 07:09:43",
+      "level": "INFO",
+      "message": "[API] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] 流处理完成: 收到72个响应对象, 累计内容长度5885字符"
+    },
+    {
+      "time": "2026-04-09 07:09:43",
+      "level": "INFO",
+      "message": "[CHAT] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] AI响应: 您好！我是 Gemini Enterprise✨。很高兴能作为您的专属助手，为您深入、详尽地解析我们所居住的宇宙家园——太阳系。关于太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑和未来的探索计划，这是一个极其宏大、复杂且充满魅力的科学主题。\n\n为了给您提供最全面且易于理解的信息，我将采用分模块解析、多维度对比的方式为您深度剖析。以下是为您准备的详细报告。\n\n---\n\n# 🌌 太阳系的形成过程\n\n要理解各大行星的现状，我们首先需要将时间倒回至约 46 亿年前，回顾太阳系的起源。目前科学界广泛接受的理论是**星云假说（Nebular Hypothesis）**，结合现代天文观测不断完善的模型（例如“尼斯模型”），我们可以将太阳系的形成过程归纳为以下几个核心阶段：\n\n1. **巨型分子云的坍缩**：约 46 亿年前，银河系中的一片巨大的星际分子云（主要由氢、氦以及早期超新星爆炸留下的微量重元素组成）由于某种外部扰动（可能是附近超新星爆发的冲击波）开始引力坍缩。随着坍缩的进行，这片星云的自转速度不断加快，并在角动量守恒的规律下，逐渐演化成一个扁平的、旋转...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:09:43",
+      "level": "INFO",
+      "message": "[API] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] 响应完成: 57.85秒"
+    },
+    {
+      "time": "2026-04-09 07:09:43",
+      "level": "INFO",
+      "message": "[CHAT] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:09:43",
+      "level": "INFO",
+      "message": "[CHAT] [t7610gs8zrr4ycs@maisi-ai.com] [req_7fda0f] AI响应: 您好！我是 Gemini Enterprise✨。很高兴能作为您的专属助手，为您深入、详尽地解析我们所居住的宇宙家园——太阳系。关于太阳系中各大行星的特征、形成过程、大气成分、卫星系统，以及人类对太阳系探索的重大里程碑和未来的探索计划，这是一个极其宏大、复杂且充满魅力的科学主题。\n\n为了给您提供最全面且易于理解的信息，我将采用分模块解析、多维度对比的方式为您深度剖析。以下是为您准备的详细报告。\n\n---\n\n# 🌌 太阳系的形成过程\n\n要理解各大行星的现状，我们首先需要将时间倒回至约 46 亿年前，回顾太阳系的起源。目前科学界广泛接受的理论是**星云假说（Nebular Hypothesis）**，结合现代天文观测不断完善的模型（例如“尼斯模型”），我们可以将太阳系的形成过程归纳为以下几个核心阶段：\n\n1. **巨型分子云的坍缩**：约 46 亿年前，银河系中的一片巨大的星际分子云（主要由氢、氦以及早期超新星爆炸留下的微量重元素组成）由于某种外部扰动（可能是附近超新星爆发的冲击波）开始引力坍缩。随着坍缩的进行，这片星云的自转速度不断加快，并在角动量守恒的规律下，逐渐演化成一个扁平的、旋转...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:09:44",
+      "level": "INFO",
+      "message": "[CHAT] [t7333k00ix98fmi@maisi-ai.online] [req_268851] 继续会话: 474912263238"
+    },
+    {
+      "time": "2026-04-09 07:09:44",
+      "level": "INFO",
+      "message": "[CHAT] [t7333k00ix98fmi@maisi-ai.online] [req_268851] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:09:44",
+      "level": "INFO",
+      "message": "[CHAT] [t7333k00ix98fmi@maisi-ai.online] [req_268851] 用户消息: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。"
+    },
+    {
+      "time": "2026-04-09 07:09:44",
+      "level": "INFO",
+      "message": "[API] [t7333k00ix98fmi@maisi-ai.online] [req_268851] 发送内容: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。"
+    },
+    {
+      "time": "2026-04-09 07:09:57",
+      "level": "INFO",
+      "message": "[AUTO-REFRESH] 检测到账号变化，正在自动刷新..."
+    },
+    {
+      "time": "2026-04-09 07:09:57",
+      "level": "INFO",
+      "message": "[AUTO-REFRESH] 账号刷新完成，当前账号数: 212"
+    },
+    {
+      "time": "2026-04-09 07:10:07",
+      "level": "INFO",
+      "message": "[API] [t1612a13q9ljq3c@maisi-ai.com] [req_f1dd0c] 流处理完成: 收到54个响应对象, 累计内容长度5541字符"
+    },
+    {
+      "time": "2026-04-09 07:10:07",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_f1dd0c] AI响应: 你好！我是 Gemini Enterprise，非常高兴能为你深度解析这个充满魅力且具有颠覆性潜力的前沿科技领域。\n\n量子计算（Quantum Computing）被认为是人类计算能力的一次真正意义上的“范式转换”。如果说经典计算机的发展是从算盘到超级计算机的量变，那么量子计算机则是基于全新物理法则的质变。以下我将从基本原理、发展历程、技术路线、面临挑战以及未来应用五个维度，为你呈现一份超过2000字的详细深度解析。\n\n---\n\n# 🌌 一、 量子计算的基本原理\n\n要理解量子计算，我们必须先抛弃经典物理学中对于“确定性”的直觉，进入由量子力学主导的微观世界。经典计算的基本单元是比特（Bit），其状态只能是 0 或 1。而量子计算的基本单元是量子比特（Qubit），其运作依赖于以下三大核心量子力学原理：\n\n### 1. 量子叠加态（Superposition）\n在经典世界里，一个硬币要么是正面，要么是反面。但在量子世界里，一个量子比特可以同时处于 0 和 1 的“叠加态”。这就好比硬币在空中旋转时的状态——它既包含了正面，也包含了反面。\n从数学角度看，一个量子比特的状态可以用 $|\\ps...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:10:07",
+      "level": "INFO",
+      "message": "[API] [t1612a13q9ljq3c@maisi-ai.com] [req_f1dd0c] 响应完成: 91.39秒"
+    },
+    {
+      "time": "2026-04-09 07:10:07",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_f1dd0c] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:10:07",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_f1dd0c] AI响应: 你好！我是 Gemini Enterprise，非常高兴能为你深度解析这个充满魅力且具有颠覆性潜力的前沿科技领域。\n\n量子计算（Quantum Computing）被认为是人类计算能力的一次真正意义上的“范式转换”。如果说经典计算机的发展是从算盘到超级计算机的量变，那么量子计算机则是基于全新物理法则的质变。以下我将从基本原理、发展历程、技术路线、面临挑战以及未来应用五个维度，为你呈现一份超过2000字的详细深度解析。\n\n---\n\n# 🌌 一、 量子计算的基本原理\n\n要理解量子计算，我们必须先抛弃经典物理学中对于“确定性”的直觉，进入由量子力学主导的微观世界。经典计算的基本单元是比特（Bit），其状态只能是 0 或 1。而量子计算的基本单元是量子比特（Qubit），其运作依赖于以下三大核心量子力学原理：\n\n### 1. 量子叠加态（Superposition）\n在经典世界里，一个硬币要么是正面，要么是反面。但在量子世界里，一个量子比特可以同时处于 0 和 1 的“叠加态”。这就好比硬币在空中旋转时的状态——它既包含了正面，也包含了反面。\n从数学角度看，一个量子比特的状态可以用 $|\\ps...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:10:18",
+      "level": "INFO",
+      "message": "[API] [t7333k00ix98fmi@maisi-ai.online] [req_268851] 流处理完成: 收到27个响应对象, 累计内容长度2133字符"
+    },
+    {
+      "time": "2026-04-09 07:10:18",
+      "level": "INFO",
+      "message": "[CHAT] [t7333k00ix98fmi@maisi-ai.online] [req_268851] AI响应: 你好！我是Gemini Enterprise，非常高兴能为您详细解答关于区块链技术的硬核知识。区块链是一个融合了多项计算机科学技术的复杂系统，下面我将通过结构化的方式为您拆解它的底层原理、主流公链的差异，以及DeFi和NFT的运作逻辑与未来前景。\n\n---\n\n# 🧱 区块链技术的底层原理\n\n区块链之所以能够实现“去中心化”和“不可篡改”，主要依赖于三大核心底层技术的无缝配合。\n\n| 核心技术 | 功能定位 | 详细运作方式 |\n|---|---|---|\n| **密码学 (Cryptography)** | 保障数据安全与身份验证 | 采用哈希算法（如SHA-256）将交易数据压缩成固定长度的唯一字符串，任何微小篡改都会导致哈希值剧变。同时使用非对称加密（公钥和私钥）来证明资产所有权，私钥用于签名，公钥用于全网验证。 |\n| **P2P网络 (点对点网络)** | 实现去中心化数据传输与存储 | 网络中没有中央服务器，所有参与的节点地位平等。当一笔新交易产生时，会通过Gossip协议向全网广播。每个全节点都会保存一份完整的账本副本，确保单点故障不会影响系统运行。 |\n| **共识机制 ...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:10:18",
+      "level": "INFO",
+      "message": "[API] [t7333k00ix98fmi@maisi-ai.online] [req_268851] 响应完成: 33.74秒"
+    },
+    {
+      "time": "2026-04-09 07:10:18",
+      "level": "INFO",
+      "message": "[CHAT] [t7333k00ix98fmi@maisi-ai.online] [req_268851] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:10:18",
+      "level": "INFO",
+      "message": "[CHAT] [t7333k00ix98fmi@maisi-ai.online] [req_268851] AI响应: 你好！我是Gemini Enterprise，非常高兴能为您详细解答关于区块链技术的硬核知识。区块链是一个融合了多项计算机科学技术的复杂系统，下面我将通过结构化的方式为您拆解它的底层原理、主流公链的差异，以及DeFi和NFT的运作逻辑与未来前景。\n\n---\n\n# 🧱 区块链技术的底层原理\n\n区块链之所以能够实现“去中心化”和“不可篡改”，主要依赖于三大核心底层技术的无缝配合。\n\n| 核心技术 | 功能定位 | 详细运作方式 |\n|---|---|---|\n| **密码学 (Cryptography)** | 保障数据安全与身份验证 | 采用哈希算法（如SHA-256）将交易数据压缩成固定长度的唯一字符串，任何微小篡改都会导致哈希值剧变。同时使用非对称加密（公钥和私钥）来证明资产所有权，私钥用于签名，公钥用于全网验证。 |\n| **P2P网络 (点对点网络)** | 实现去中心化数据传输与存储 | 网络中没有中央服务器，所有参与的节点地位平等。当一笔新交易产生时，会通过Gossip协议向全网广播。每个全节点都会保存一份完整的账本副本，确保单点故障不会影响系统运行。 |\n| **共识机制 ...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:10:19",
+      "level": "INFO",
+      "message": "[API] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] 流处理完成: 收到82个响应对象, 累计内容长度9204字符"
+    },
+    {
+      "time": "2026-04-09 07:10:19",
+      "level": "INFO",
+      "message": "[CHAT] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] AI响应: 你好！我是 Gemini Enterprise✨。非常荣幸能为你解答这个极具深度和广度的计算机科学核心问题。现代操作系统（Operating System, OS）是计算机系统的灵魂，它不仅向下管理庞大复杂的硬件资源，向上还为应用程序提供抽象、统一的运行环境。\n\n要深入理解操作系统的全貌，我们需要像庖丁解牛一样，深入到内核层面的各个核心模块中。接下来，我将为你全面、详细地剖析操作系统的五大核心模块：进程管理、内存管理、文件系统、I/O系统以及安全机制，并在每个模块中深度对比当代两大主流操作系统——Linux 和 Windows 的设计哲学与实现差异。\n\n---\n\n# 🧠 现代操作系统核心模块深度解析与双雄争霸：Linux vs Windows\n\n操作系统的设计是一门关于“权衡（Trade-off）”的艺术：在性能与安全之间、在响应时间与吞吐量之间、在易用性与灵活性之间寻找最佳平衡点。Linux 诞生于极客之手，秉承 Unix 的哲学，强调简洁、模块化和“一切皆文件”；而 Windows 则起源于个人微机时代，并在 NT 内核重构后走向企业级市场，强调向后兼容、高度集成的图形界面与严密的...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:10:19",
+      "level": "INFO",
+      "message": "[API] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] 响应完成: 95.08秒"
+    },
+    {
+      "time": "2026-04-09 07:10:19",
+      "level": "INFO",
+      "message": "[CHAT] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:10:19",
+      "level": "INFO",
+      "message": "[CHAT] [t7968ofokn47yk5@maisi-ai.com] [req_6f60b1] AI响应: 你好！我是 Gemini Enterprise✨。非常荣幸能为你解答这个极具深度和广度的计算机科学核心问题。现代操作系统（Operating System, OS）是计算机系统的灵魂，它不仅向下管理庞大复杂的硬件资源，向上还为应用程序提供抽象、统一的运行环境。\n\n要深入理解操作系统的全貌，我们需要像庖丁解牛一样，深入到内核层面的各个核心模块中。接下来，我将为你全面、详细地剖析操作系统的五大核心模块：进程管理、内存管理、文件系统、I/O系统以及安全机制，并在每个模块中深度对比当代两大主流操作系统——Linux 和 Windows 的设计哲学与实现差异。\n\n---\n\n# 🧠 现代操作系统核心模块深度解析与双雄争霸：Linux vs Windows\n\n操作系统的设计是一门关于“权衡（Trade-off）”的艺术：在性能与安全之间、在响应时间与吞吐量之间、在易用性与灵活性之间寻找最佳平衡点。Linux 诞生于极客之手，秉承 Unix 的哲学，强调简洁、模块化和“一切皆文件”；而 Windows 则起源于个人微机时代，并在 NT 内核重构后走向企业级市场，强调向后兼容、高度集成的图形界面与严密的...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:10:25",
+      "level": "INFO",
+      "message": "[CHAT] [t7715kucv2wlvlv@maisi-ai.online] [req_2f84e2] 新会话创建并绑定账户"
+    },
+    {
+      "time": "2026-04-09 07:10:25",
+      "level": "INFO",
+      "message": "[CHAT] [t7715kucv2wlvlv@maisi-ai.online] [req_2f84e2] 收到请求: gemini-3.1-pro-preview | 2条消息 | stream=False"
+    },
+    {
+      "time": "2026-04-09 07:10:25",
+      "level": "INFO",
+      "message": "[CHAT] [t7715kucv2wlvlv@maisi-ai.online] [req_2f84e2] 用户消息: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。"
+    },
+    {
+      "time": "2026-04-09 07:10:25",
+      "level": "INFO",
+      "message": "[API] [t7715kucv2wlvlv@maisi-ai.online] [req_2f84e2] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:10:34",
+      "level": "WARNING",
+      "message": "[CHAT] [t7715kucv2wlvlv@maisi-ai.online] [req_2f84e2] 切换账户重试 (1/3)"
+    },
+    {
+      "time": "2026-04-09 07:10:34",
+      "level": "INFO",
+      "message": "[CHAT] [req_2f84e2] 切换账户: t7715kucv2wlvlv@maisi-ai.online -> t1462rgszvqkcw9@maisi-ai.online"
+    },
+    {
+      "time": "2026-04-09 07:10:35",
+      "level": "INFO",
+      "message": "[API] [t1462rgszvqkcw9@maisi-ai.online] [req_2f84e2] 发送内容: User: 你是一个知识渊博的助手，请详细、深入地回答问题，字数不少于2000字。\n\nUser: 请详细介绍区块链技术的底层原理（共识机制、密码学、P2P网络）、主流公链对比（比特币、以太坊、Solana等）、DeFi和NFT的运作方式及行业前景。\n\n"
+    },
+    {
+      "time": "2026-04-09 07:10:47",
+      "level": "INFO",
+      "message": "[API] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] 流处理完成: 收到38个响应对象, 累计内容长度3091字符"
+    },
+    {
+      "time": "2026-04-09 07:10:47",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] AI响应: 你好！我是 Gemini Enterprise，很高兴为您解答关于量子计算的疑问。\n\n量子计算是当今科技领域最具革命性的前沿技术之一，它有望在算力上带来颠覆性的突破。以下为您详细梳理量子计算的基本原理、发展历程、主要技术路线、当前挑战以及未来前景。\n\n---\n\n### ⚛️ 1. 量子计算的基本原理\n\n传统计算机（经典计算机）以比特（Bit）为基本信息单位，其状态非0即1。而量子计算机的基本信息单位是**量子比特（Qubit）**。量子计算的强大算力主要来源于以下三个量子力学核心原理：\n\n*   **量子叠加（Superposition）：** 量子比特不仅可以处于0或1的状态，还可以同时处于0和1的“叠加态”。如果一个包含 $n$ 个量子比特的系统处于叠加态，它可以同时表示 $2^n$ 种状态，这为大规模并行计算提供了物理基础。\n*   **量子纠缠（Entanglement）：** 当两个或多个量子比特发生纠缠时，它们的状态会紧密关联，无论相隔多远，对其中一个量子比特的测量会瞬间影响到其他量子比特。纠缠使得量子计算机内部能够以极高的效率传递和处理复杂信息。\n*   **量子干涉（I...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:10:47",
+      "level": "INFO",
+      "message": "[API] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] 响应完成: 69.16秒"
+    },
+    {
+      "time": "2026-04-09 07:10:47",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:10:47",
+      "level": "INFO",
+      "message": "[CHAT] [t1612a13q9ljq3c@maisi-ai.com] [req_0612a0] AI响应: 你好！我是 Gemini Enterprise，很高兴为您解答关于量子计算的疑问。\n\n量子计算是当今科技领域最具革命性的前沿技术之一，它有望在算力上带来颠覆性的突破。以下为您详细梳理量子计算的基本原理、发展历程、主要技术路线、当前挑战以及未来前景。\n\n---\n\n### ⚛️ 1. 量子计算的基本原理\n\n传统计算机（经典计算机）以比特（Bit）为基本信息单位，其状态非0即1。而量子计算机的基本信息单位是**量子比特（Qubit）**。量子计算的强大算力主要来源于以下三个量子力学核心原理：\n\n*   **量子叠加（Superposition）：** 量子比特不仅可以处于0或1的状态，还可以同时处于0和1的“叠加态”。如果一个包含 $n$ 个量子比特的系统处于叠加态，它可以同时表示 $2^n$ 种状态，这为大规模并行计算提供了物理基础。\n*   **量子纠缠（Entanglement）：** 当两个或多个量子比特发生纠缠时，它们的状态会紧密关联，无论相隔多远，对其中一个量子比特的测量会瞬间影响到其他量子比特。纠缠使得量子计算机内部能够以极高的效率传递和处理复杂信息。\n*   **量子干涉（I...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:11:31",
+      "level": "INFO",
+      "message": "[API] [t1462rgszvqkcw9@maisi-ai.online] [req_2f84e2] 流处理完成: 收到47个响应对象, 累计内容长度3803字符"
+    },
+    {
+      "time": "2026-04-09 07:11:31",
+      "level": "INFO",
+      "message": "[CHAT] [t1462rgszvqkcw9@maisi-ai.online] [req_2f84e2] AI响应: 你好！我是 Gemini Enterprise。很高兴能与你一起深入探讨区块链这一极具颠覆性的技术领域。区块链的复杂性在于它融合了计算机科学、密码学和经济学等多门学科，它不仅仅是一项技术，更是一种重塑信任和价值传递的底层架构。\n\n接下来，我将为你全面、详尽地拆解区块链的底层原理、主流公链的差异、去中心化应用的核心逻辑，以及对未来的行业展望。\n\n---\n\n# 🧱 区块链技术的底层原理\n\n区块链之所以被称为“信任的机器”，完全得益于其精妙的底层设计。我们可以从密码学、点对点网络以及共识机制这三个核心支柱来深入剖析。\n\n密码学是区块链建立信任的基础屏障。在区块链的世界里，广泛应用了非对称加密技术和哈希算法。非对称加密为每个参与网络的用户生成一对独一无二的密钥：公钥和私钥。公钥类似于银行账户，可以公开给任何人用于接收数字资产；私钥则类似于提款密码或数字印章，由用户绝对掌控，用于对交易进行数字签名。哈希算法（例如比特币网络中使用的 SHA-256）则负责将任意长度的数据转化为固定长度的字符串。这种算法具有单向性和极强的抗碰撞性，一旦区块中的任何交易数据被篡改哪怕一个标点符号，其产生的哈希值就会发...(已截断)"
+    },
+    {
+      "time": "2026-04-09 07:11:31",
+      "level": "INFO",
+      "message": "[API] [t1462rgszvqkcw9@maisi-ai.online] [req_2f84e2] 响应完成: 56.20秒"
+    },
+    {
+      "time": "2026-04-09 07:11:31",
+      "level": "INFO",
+      "message": "[CHAT] [t1462rgszvqkcw9@maisi-ai.online] [req_2f84e2] 非流式响应完成"
+    },
+    {
+      "time": "2026-04-09 07:11:31",
+      "level": "INFO",
+      "message": "[CHAT] [t1462rgszvqkcw9@maisi-ai.online] [req_2f84e2] AI响应: 你好！我是 Gemini Enterprise。很高兴能与你一起深入探讨区块链这一极具颠覆性的技术领域。区块链的复杂性在于它融合了计算机科学、密码学和经济学等多门学科，它不仅仅是一项技术，更是一种重塑信任和价值传递的底层架构。\n\n接下来，我将为你全面、详尽地拆解区块链的底层原理、主流公链的差异、去中心化应用的核心逻辑，以及对未来的行业展望。\n\n---\n\n# 🧱 区块链技术的底层原理\n\n区块链之所以被称为“信任的机器”，完全得益于其精妙的底层设计。我们可以从密码学、点对点网络以及共识机制这三个核心支柱来深入剖析。\n\n密码学是区块链建立信任的基础屏障。在区块链的世界里，广泛应用了非对称加密技术和哈希算法。非对称加密为每个参与网络的用户生成一对独一无二的密钥：公钥和私钥。公钥类似于银行账户，可以公开给任何人用于接收数字资产；私钥则类似于提款密码或数字印章，由用户绝对掌控，用于对交易进行数字签名。哈希算法（例如比特币网络中使用的 SHA-256）则负责将任意长度的数据转化为固定长度的字符串。这种算法具有单向性和极强的抗碰撞性，一旦区块中的任何交易数据被篡改哪怕一个标点符号，其产生的哈希值就会发...(已截断)"
+    }
+  ]
+}
