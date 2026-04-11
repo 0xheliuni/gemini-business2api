@@ -36,7 +36,7 @@ def get_common_headers(jwt: str, user_agent: str) -> dict:
         "origin": "https://business.gemini.google",
         "referer": "https://business.gemini.google/",
         "user-agent": user_agent,
-        "x-server-timeout": "120",
+        "x-server-timeout": "300",
         "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
         "sec-ch-ua-mobile": "?0",
         "sec-ch-ua-platform": '"Windows"',
